@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest --environment=jsdom"
+    "test": "vitest run --coverage --environment=jsdom"
   },
   "dependencies": {
     "lucide-react": "^0.555.0",
