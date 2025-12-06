@@ -74,28 +74,28 @@ const App = () => {
 
   const experience = [
     {
-      company: 'CloudScale Tech',
-      role: 'Senior DevOps Engineer',
-      period: '2022 - Present',
+      company: 'Hex64',
+      role: 'DevOps Engineer',
+      period: 'Jan 2024 - Sep 2024',
       description:
-        'Leading the migration of legacy monoliths to microservices on AWS EKS. Implemented GitOps workflows using ArgoCD which reduced deployment time by 60%.',
-      tech: ['AWS', 'Kubernetes', 'ArgoCD', 'Terraform']
+        'Designed and implemented scalable infrastructure on AWS using Terraform, reducing deployment times by 60%. Developed CI/CD pipelines with GitHub Actions, automating testing and deployment processes, which improved release frequency by 25%.',
+      tech: ['AWS', 'Kubernetes', 'Python', 'Terraform', 'Docker']
     },
     {
-      company: 'SecureNet Systems',
-      role: 'Infrastructure Engineer',
-      period: '2020 - 2022',
+      company: 'SSPL - DRDO',
+      role: 'Software Engineer Intern',
+      period: 'Jul 2023 - Aug 2023',
       description:
-        'Hardened CI/CD pipelines using GitHub Actions and SonarQube. Managed multi-region infrastructure provisioning via Ansible and Python scripting.',
+        'Developed a high-performance SaaS web application using Next.js and Prisma ORM, enhancing data retrieval speeds by 40% through optimized database queries.',
       tech: ['Linux', 'Ansible', 'Python', 'Jenkins']
     },
     {
-      company: 'StartUp Inc',
-      role: 'Junior System Admin',
-      period: '2018 - 2020',
+      company: 'Motherson Technology Services',
+      role: 'Software Engineer Intern',
+      period: 'Jun 2023 - Jun 2023',
       description:
-        'Maintained on-premise Linux servers and automated daily backup routines using Bash scripts. Assisted in Dockerizing local development environments.',
-      tech: ['Linux', 'Bash', 'Docker', 'MySQL']
+        'Enhanced C++ application performance by 45% through code optimization and managed MSSQL database operations for data integrity. Collaborated in an Agile team to deliver features on time.',
+      tech: ['C++', 'MSSQL']
     }
   ];
 
