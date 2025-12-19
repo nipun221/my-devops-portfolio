@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as Lucide from 'lucide-react';
+import Nipun_Resume from './assets/Nipun_Resume.pdf';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -364,7 +365,7 @@ const App = () => {
 
               {/* Resume download button */}
               <a
-                href="/resume.pdf"
+                href={Nipun_Resume}
                 // set download filename — if same-origin browser will download with this filename
                 download="Nipun_Vats_Resume.pdf"
                 // Also open in new tab as fallback for cross-origin where download might be ignored
