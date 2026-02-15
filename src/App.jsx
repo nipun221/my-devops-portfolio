@@ -185,7 +185,7 @@ const App = () => {
             <p className="text-green-400 mb-4 tracking-widest uppercase text-sm font-bold">System Status: Online</p>
             <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
               HI! I'M NIPUN<br />
-              <span className="text-gray-500">DEVOPS & CLOUD ENGINEER</span>
+              <span className="text-gray-500">DEVOPS ENGINEER & AWS Certified Architect</span>
             </h1>
             <div className="h-8 md:h-12 flex items-center">
               <span className="text-lg md:text-2xl text-gray-400">
@@ -371,11 +371,21 @@ const App = () => {
                 // Also open in new tab as fallback for cross-origin where download might be ignored
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 bg-neutral-800 border border-gray-700 px-6 py-4 text-white hover:bg-green-500 hover:text-black hover:border-green-500 transition-all group"
+                className="flex items-center justify-center gap-3 bg-neutral-800 border border-gray-700 px-6 py-4 text-white hover:bg-yellow-200 hover:text-black hover:border-yellow-200 transition-all group"
                 aria-label="Download resume"
               >
                 {I('ExternalLink', { size: 18 })}
-                <span className="font-bold">DOWNLOAD RESUME</span>
+                <span className="font-bold">RESUME</span>
+              </a>
+
+              <a
+                href="https://www.credly.com/badges/c17e7534-4f0b-4d75-94e4-774bf1a23ca0/linked_in_profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 bg-neutral-800 border border-gray-700 px-8 py-4 text-white hover:bg-[#ff9900] hover:text-white hover:border-[#ff9900] transition-all group"
+              >
+                <Lucide.Award size={20} />
+                <span className="font-bold">SAA-C03</span>
               </a>
             </div>
 
