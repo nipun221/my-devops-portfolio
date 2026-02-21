@@ -76,7 +76,7 @@ const App = () => {
   const experience = [
     {
       company: 'Hex64',
-      role: 'DevOps Engineer',
+      role: 'DevOps Engineer (Intern)',
       period: 'Jan 2024 - Sep 2024',
       description:
         'Designed and implemented scalable infrastructure on AWS using Terraform, reducing deployment times by 60%. Developed CI/CD pipelines with GitHub Actions, automating testing and deployment processes, which improved release frequency by 25%.',
@@ -185,7 +185,7 @@ const App = () => {
             <p className="text-green-400 mb-4 tracking-widest uppercase text-sm font-bold">System Status: Online</p>
             <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
               HI! I'M NIPUN<br />
-              <span className="text-gray-500">DEVOPS ENGINEER & AWS Certified Architect</span>
+              <span className="text-gray-500">Cloud/Infrastructure Engineer & AWS Certified Architect</span>
             </h1>
             <div className="h-8 md:h-12 flex items-center">
               <span className="text-lg md:text-2xl text-gray-400">
@@ -225,8 +225,9 @@ const App = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 text-lg text-gray-400 leading-relaxed">
                 <p><span className="text-white font-bold">I don't just write code; I build the systems that run it.</span></p>
-                <p>I am passionate about eliminating manual toil through automation. My expertise lies in designing resilient cloud architectures, optimizing CI/CD pipelines for speed and security, and ensuring deep system observability.</p>
-                <p>Whether it's scripting in Python, managing K8s clusters, or locking down IAM policies, I focus on building infrastructure that is scalable, secure, and cost-efficient.</p>
+                <p>I am a Cloud & Infrastructure Engineer passionate about eliminating manual toil through automation.</p>
+                <p>I design and implement AWS-based infrastructure using Terraform, Kubernetes, and CI/CD pipelines to deploy scalable, production-ready applications. My work focuses on reliability, automation, and operational efficiency — from provisioning cloud resources to monitoring system performance.</p>
+                <p>With hands-on experience in container orchestration, serverless workflows, and infrastructure automation, I aim to build cloud environments that are secure, cost-efficient, and easy to operate at scale.</p>
               </div>
               <div className="bg-neutral-800 p-6 border border-gray-700 text-sm">
                 <div className="flex gap-2 mb-4 border-b border-gray-700 pb-2">
